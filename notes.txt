@@ -4,4 +4,7 @@ we  can insert the js script code in tow parts
         its best practice, best user experiece due to 
             parsing top to bottom
 
-            
+//actual values ---> argumnets
+//parameter ---> value at Function 
+
+// default value of object is undefined 

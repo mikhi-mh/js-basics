@@ -105,3 +105,27 @@ selectors2.push("green");
 console.log(selectors2);
 console.log("length is  " + selectors2.length);
 
+
+/////fucntions
+greet();
+function greet(){
+    //this is body
+    console.log("this is fun declaration");
+}
+console.log("\n");
+greet();
+
+console.log("\n");
+
+function greetMe(name){
+    console.log("Hello " + name);
+}
+
+greetMe("mikhi");
+console.log("\n");
+
+let this123 = "mikhiLesh";
+greetMe(this123);
+console.log("\n");
+
+

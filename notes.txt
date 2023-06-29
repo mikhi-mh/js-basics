@@ -1,0 +1,7 @@
+we  can insert the js script code in tow parts
+    1. in head
+    2. in body----after all html/css code 
+        its best practice, best user experiece due to 
+            parsing top to bottom
+
+            

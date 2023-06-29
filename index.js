@@ -128,4 +128,9 @@ let this123 = "mikhiLesh";
 greetMe(this123);
 console.log("\n");
 
+//// types of functions
 
+function square123(number){
+    return number*number;
+}
+console.log(square123(25));

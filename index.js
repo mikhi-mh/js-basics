@@ -75,3 +75,33 @@ console.log("\n");
 // this is used for runtime in the browser
 person['age'] = 16;
 console.log(person['age']);
+
+
+////arrays
+console.log('arrays')
+let selectors = [];
+console.log(selectors);
+console.log('\n');
+
+let selectors2 = ['red', 'blue'];
+console.log(selectors2);
+console.log('\n\n');
+console.log(selectors2[0]);  /// 
+console.log('\t');
+console.log(selectors2[1]);
+console.log('\n\n');
+console.log(selectors2);
+console.log(typeof(selectors2));
+
+console.log('\n\n');
+selectors2[2] = 123 ; /// any datatype can be inserted
+console.log(selectors2);
+console.log(typeof(selectors2));
+
+
+console.log('\n\n');
+// selectors2[3] = "green";
+selectors2.push("green");
+console.log(selectors2);
+console.log("length is  " + selectors2.length);
+
